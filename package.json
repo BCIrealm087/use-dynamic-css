@@ -1,0 +1,29 @@
+{
+  "name": "@bcirealm087/use-dynamic-css",
+  "description": "React hook for dynamically attaching and de-attaching css to the page when a component mounts and unmounts, respectively",
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run clean && tsc",
+    "prepare": "npm run build"
+  }, 
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.10",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.6.2"
+  }
+}
