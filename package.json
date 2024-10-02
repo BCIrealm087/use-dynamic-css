@@ -3,7 +3,6 @@
   "description": "React hook for dynamically attaching and de-attaching css to the page when a component mounts and unmounts, respectively",
   "version": "1.0.0",
   "license": "MIT",
-  "type": "module",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "exports": {
